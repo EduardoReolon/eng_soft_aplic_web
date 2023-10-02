@@ -5,8 +5,7 @@
 
 // path atual para saber o caminho das proximas páginas
 const currentPath = window.location.pathname.replace(/.+eng_soft_aplic_web\//, '').split('/');
-if (currentPath.at(-1).match(/\./)) currentPath.pop()
-console.log(window.location.pathname, currentPath)
+if (!currentPath.at(-1) || currentPath.at(-1).match(/\./)) currentPath.pop()
 const pathToRoot = currentPath.length
     ? currentPath.map(() => '..').join('/')
     : '';
