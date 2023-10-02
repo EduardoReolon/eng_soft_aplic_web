@@ -1,0 +1,20 @@
+/* stylos comuns a todas as páginas */
+
+#navWebsite > div{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid;
+    margin: 0 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#navWebsite a{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

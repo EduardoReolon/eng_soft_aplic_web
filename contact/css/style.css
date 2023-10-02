@@ -1,0 +1,14 @@
+/* CSS do form */
+form label{
+    display: block;
+    margin: 10px 0;
+}
+form label span{
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+}
+form label input, form label textarea{
+    width: 200px;
+    box-sizing: border-box;
+}

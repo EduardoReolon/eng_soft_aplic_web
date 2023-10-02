@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <script src="../js/general.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="../css/general.css"></link>
+    <link rel="stylesheet" href="css/style.css"></link>
+</head>
+<body>
+    <nav id="navWebsite"></nav>
+
+    <main>
+        <h3>Contato</h3>
+        <ul>
+            <li>Nome: Eduardo Abilio Reolon</li>
+            <li>Celular/WhatsApp: <a target="_blank" href="https://api.whatsapp.com/send?phone=554199030047">(41) 99903-0047</a></li>
+            <li>e-mail: <a href = "mailto: eduardo_reolon@hotmail.com">eduardo_reolon@hotmail.com</a></li>
+            <li>Endereço: Rua XXX, 123, Curitiba-PR</li>
+        </ul>
+        <h3>Envie-me uma mensagem</h3>
+        <form onsubmit="sendMessage(event)">
+            <label>
+                <span>E-mail:</span>
+                <input type="email" name="email" id="">
+            </label>
+            <label>
+                <span>Nome:</span>
+                <input type="text" name="name" id="">
+            </label>
+            <label>
+                <span>Mensagem:</span>
+                <textarea type="text" name="message" rows="5" id=""></textarea>
+            </label>
+            <input type="submit" name="" value="Enviar">
+        </form>
+    </main>
+
+    <script>
+        start();
+    </script>
+</body>
+</html>
